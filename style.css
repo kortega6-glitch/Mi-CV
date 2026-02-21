@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    line-height: 1.6;
+}
+header h1 {
+    color: #0b3;
+    font-size: 2.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+header p {
+    text-align: center;
+    color: #eee;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+main {
+    width: 700px;
+    max-width: 80%;
+    margin: auto;
+    background: #444;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px #030;
+}
+section {
+    margin-bottom: 30px;
+}
+h2 {
+    color: #0b3;
+    font-size: 1.8em;
+    border-bottom: 2px solid #0b3;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 3px solid #0f3;
+}
+#habilidades li {
+    font-family:monospace;
+    font-size: 24px;
+}
+img {
+    max-height: 24px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+button {
+    background: #083;
+    color: #eee;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    width: 200px;
+    transition: .3s;
+}
+button:hover {
+    transform: translateY(-2px);
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(40, 211, 71, 0.3);
+}
+footer {
+    background: #042;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 16px 16px 0 0;
+}
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #5dade2;
+    text-decoration: underline;
+}
